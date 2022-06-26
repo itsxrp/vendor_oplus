@@ -1246,6 +1246,13 @@
 },
 
 {
+  "VendorTag": "com.oplus.capture.max.images",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "52"
+},
+
+{
   "VendorTag": "com.oplus.high.fps.video.preview.process.by.aps",
   "Type": "Byte",
   "Count": "1",

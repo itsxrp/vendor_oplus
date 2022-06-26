@@ -8,6 +8,13 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/oplus/RMX3360/proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service \
     vendor/oplus/RMX3360/proprietary/odm/bin/init.oplus.fingerprints.sh:$(TARGET_COPY_OUT_ODM)/bin/init.oplus.fingerprints.sh \
+    vendor/oplus/RMX3360/proprietary/odm/etc/21675/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/21675/build.default.prop \
+    vendor/oplus/RMX3360/proprietary/odm/etc/21675/build.eea.prop:$(TARGET_COPY_OUT_ODM)/etc/21675/build.eea.prop \
+    vendor/oplus/RMX3360/proprietary/odm/etc/21675/build.gsi.prop:$(TARGET_COPY_OUT_ODM)/etc/21675/build.gsi.prop \
+    vendor/oplus/RMX3360/proprietary/odm/etc/21675/build.ru.prop:$(TARGET_COPY_OUT_ODM)/etc/21675/build.ru.prop \
+    vendor/oplus/RMX3360/proprietary/odm/etc/21675/build.t2.prop:$(TARGET_COPY_OUT_ODM)/etc/21675/build.t2.prop \
+    vendor/oplus/RMX3360/proprietary/odm/etc/21675/build.tr.prop:$(TARGET_COPY_OUT_ODM)/etc/21675/build.tr.prop \
+    vendor/oplus/RMX3360/proprietary/odm/etc/21675/flags.prop:$(TARGET_COPY_OUT_ODM)/etc/21675/flags.prop \
     vendor/oplus/RMX3360/proprietary/odm/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/oplus/RMX3360/proprietary/odm/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/General_cal.acdb \
     vendor/oplus/RMX3360/proprietary/odm/etc/acdbdata/Global_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Global_cal.acdb \
@@ -15,7 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/RMX3360/proprietary/odm/etc/acdbdata/Hdmi_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Hdmi_cal.acdb \
     vendor/oplus/RMX3360/proprietary/odm/etc/acdbdata/Headset_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Headset_cal.acdb \
     vendor/oplus/RMX3360/proprietary/odm/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Speaker_cal.acdb \
-    vendor/oplus/RMX3360/proprietary/odm/etc/audio_platform_info.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_platform_info.xml \
     vendor/oplus/RMX3360/proprietary/odm/etc/bt/msnv11.bin:$(TARGET_COPY_OUT_ODM)/etc/bt/msnv11.bin \
     vendor/oplus/RMX3360/proprietary/odm/etc/bt/msnv11_ch1.bin:$(TARGET_COPY_OUT_ODM)/etc/bt/msnv11_ch1.bin \
     vendor/oplus/RMX3360/proprietary/odm/etc/camera/CameraHWConfiguration.config:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraHWConfiguration.config \
@@ -74,7 +80,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/RMX3360/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID7_MIC_Interview.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID7_MIC_Interview.txt \
     vendor/oplus/RMX3360/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID8_MIC_Unprocess.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID8_MIC_Unprocess.txt \
     vendor/oplus/RMX3360/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt \
-    vendor/oplus/RMX3360/proprietary/odm/etc/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/mixer_paths.xml \
     vendor/oplus/RMX3360/proprietary/vendor/etc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf \
     vendor/oplus/RMX3360/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/oplus/RMX3360/proprietary/vendor/etc/libnfc-st21h_conf.txt:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-st21h_conf.txt \
@@ -91,20 +96,12 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/RMX3360/proprietary/odm/etc/sensor/config/kodiak_mmc5603x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kodiak_mmc5603x_0.json \
     vendor/oplus/RMX3360/proprietary/odm/etc/sensor/config/kodiak_mmc56x3x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kodiak_mmc56x3x_0.json \
     vendor/oplus/RMX3360/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
-    vendor/oplus/RMX3360/proprietary/odm/etc/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/sound_trigger_mixer_paths.xml \
-    vendor/oplus/RMX3360/proprietary/odm/etc/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_ODM)/etc/sound_trigger_platform_info.xml \
     vendor/oplus/RMX3360/proprietary/odm/etc/wifi/bdwlan.elf:$(TARGET_COPY_OUT_ODM)/etc/wifi/bdwlan.elf \
     vendor/oplus/RMX3360/proprietary/odm/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_ODM)/firmware/tfa98xx.cnt \
     vendor/oplus/RMX3360/proprietary/odm/firmware/tp/21603/FW_FT3518_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21603/FW_FT3518_SAMSUNG.img \
     vendor/oplus/RMX3360/proprietary/odm/firmware/tp/21603/FW_FT3518_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21603/FW_FT3518_SAMSUNG_FAE.img \
     vendor/oplus/RMX3360/proprietary/odm/firmware/tp/21603/LIMIT_FT3518_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21603/LIMIT_FT3518_SAMSUNG.img \
     vendor/oplus/RMX3360/proprietary/odm/lib/libDeVIS.so:$(TARGET_COPY_OUT_ODM)/lib/libDeVIS.so \
-    vendor/oplus/RMX3360/proprietary/odm/lib/libaudioEngineerTest.so:$(TARGET_COPY_OUT_ODM)/lib/libaudioEngineerTest.so \
-    vendor/oplus/RMX3360/proprietary/odm/lib/libextcamera_client.so:$(TARGET_COPY_OUT_ODM)/lib/libextcamera_client.so \
-    vendor/oplus/RMX3360/proprietary/odm/lib/libgui1_vendor.so:$(TARGET_COPY_OUT_ODM)/lib/libgui1_vendor.so \
-    vendor/oplus/RMX3360/proprietary/odm/lib/liblvimfs.so:$(TARGET_COPY_OUT_ODM)/lib/liblvimfs.so \
-    vendor/oplus/RMX3360/proprietary/odm/lib/liblvimfs_wrapper.so:$(TARGET_COPY_OUT_ODM)/lib/liblvimfs_wrapper.so \
-    vendor/oplus/RMX3360/proprietary/odm/lib/libui.so:$(TARGET_COPY_OUT_ODM)/lib/libui.so \
     vendor/oplus/RMX3360/proprietary/odm/lib/rfsa/adsp/aiboost/libQnnHtpAltPrepSkel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/aiboost/libQnnHtpAltPrepSkel.so \
     vendor/oplus/RMX3360/proprietary/odm/lib/rfsa/adsp/aiboost/libQnnHtpSkel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/aiboost/libQnnHtpSkel.so \
     vendor/oplus/RMX3360/proprietary/odm/lib/rfsa/adsp/aiboost/libaiboostubwc_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/aiboost/libaiboostubwc_skel.so \
@@ -146,7 +143,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/RMX3360/proprietary/odm/lib/rfsa/adsp/libvdblurless_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libvdblurless_skel.so \
     vendor/oplus/RMX3360/proprietary/odm/lib/rfsa/adsp/libvdsuperphoto_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libvdsuperphoto_skel.so \
     vendor/oplus/RMX3360/proprietary/odm/lib/rfsa/adsp/libworker_pool.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libworker_pool.so \
-    vendor/oplus/RMX3360/proprietary/odm/lib/vendor.oplus.hardware.extcamera@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.extcamera@1.0.so \
     vendor/oplus/RMX3360/proprietary/odm/lib64/anc.hal.so:$(TARGET_COPY_OUT_ODM)/lib64/anc.hal.so \
     vendor/oplus/RMX3360/proprietary/odm/lib64/camera/com.qti.sensor.hi846.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.hi846.so \
     vendor/oplus/RMX3360/proprietary/odm/lib64/camera/com.qti.sensor.imx615.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.imx615.so \
@@ -254,7 +250,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/RMX3360/proprietary/odm/lib64/libarcsoft_smart_denoise.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_smart_denoise.so \
     vendor/oplus/RMX3360/proprietary/odm/lib64/libarcsoft_smart_denoise_v4.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_smart_denoise_v4.so \
     vendor/oplus/RMX3360/proprietary/odm/lib64/libarcsoft_videoautozoom.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_videoautozoom.so \
-    vendor/oplus/RMX3360/proprietary/odm/lib64/libaudioEngineerTest.so:$(TARGET_COPY_OUT_ODM)/lib64/libaudioEngineerTest.so \
     vendor/oplus/RMX3360/proprietary/odm/lib64/libavcodec.so:$(TARGET_COPY_OUT_ODM)/lib64/libavcodec.so \
     vendor/oplus/RMX3360/proprietary/odm/lib64/libavformat.so:$(TARGET_COPY_OUT_ODM)/lib64/libavformat.so \
     vendor/oplus/RMX3360/proprietary/odm/lib64/libbsproxy.so:$(TARGET_COPY_OUT_ODM)/lib64/libbsproxy.so \
@@ -263,14 +258,10 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/RMX3360/proprietary/odm/lib64/libdualcam_image_optical_zoom.so:$(TARGET_COPY_OUT_ODM)/lib64/libdualcam_image_optical_zoom.so \
     vendor/oplus/RMX3360/proprietary/odm/lib64/libdualcam_optical_zoom_control.so:$(TARGET_COPY_OUT_ODM)/lib64/libdualcam_optical_zoom_control.so \
     vendor/oplus/RMX3360/proprietary/odm/lib64/libdualcam_video_optical_zoom.so:$(TARGET_COPY_OUT_ODM)/lib64/libdualcam_video_optical_zoom.so \
-    vendor/oplus/RMX3360/proprietary/odm/lib64/libextcamera_client.so:$(TARGET_COPY_OUT_ODM)/lib64/libextcamera_client.so \
     vendor/oplus/RMX3360/proprietary/odm/lib64/libgf_hal_G3.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G3.so \
-    vendor/oplus/RMX3360/proprietary/odm/lib64/libgui1_vendor.so:$(TARGET_COPY_OUT_ODM)/lib64/libgui1_vendor.so \
     vendor/oplus/RMX3360/proprietary/odm/lib64/libhta.so:$(TARGET_COPY_OUT_ODM)/lib64/libhta.so \
     vendor/oplus/RMX3360/proprietary/odm/lib64/libhwconfigurationutil.so:$(TARGET_COPY_OUT_ODM)/lib64/libhwconfigurationutil.so \
     vendor/oplus/RMX3360/proprietary/odm/lib64/libhyperlapse.so:$(TARGET_COPY_OUT_ODM)/lib64/libhyperlapse.so \
-    vendor/oplus/RMX3360/proprietary/odm/lib64/liblvimfs.so:$(TARGET_COPY_OUT_ODM)/lib64/liblvimfs.so \
-    vendor/oplus/RMX3360/proprietary/odm/lib64/liblvimfs_wrapper.so:$(TARGET_COPY_OUT_ODM)/lib64/liblvimfs_wrapper.so \
     vendor/oplus/RMX3360/proprietary/odm/lib64/libmotionblur.so:$(TARGET_COPY_OUT_ODM)/lib64/libmotionblur.so \
     vendor/oplus/RMX3360/proprietary/odm/lib64/libmpbase.so:$(TARGET_COPY_OUT_ODM)/lib64/libmpbase.so \
     vendor/oplus/RMX3360/proprietary/odm/lib64/libop-ai-beauty-body-detection.so:$(TARGET_COPY_OUT_ODM)/lib64/libop-ai-beauty-body-detection.so \
@@ -293,7 +284,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/RMX3360/proprietary/odm/lib64/libui.so:$(TARGET_COPY_OUT_ODM)/lib64/libui.so \
     vendor/oplus/RMX3360/proprietary/odm/lib64/libwatermark_photo.so:$(TARGET_COPY_OUT_ODM)/lib64/libwatermark_photo.so \
     vendor/oplus/RMX3360/proprietary/odm/lib64/vendor.oplus.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.commondcs@1.0.so \
-    vendor/oplus/RMX3360/proprietary/odm/lib64/vendor.oplus.hardware.extcamera@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.extcamera@1.0.so \
     vendor/oplus/RMX3360/proprietary/odm/lib64/vendor.oplus.hardware.orms@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.orms@1.0.so \
     vendor/oplus/RMX3360/proprietary/odm/lib64/vendor.oplus.hardware.performance@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.performance@1.0.so \
     vendor/oplus/RMX3360/proprietary/odm/vendor/firmware/ancap64.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/ancap64.b00 \
@@ -306,6 +296,10 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/RMX3360/proprietary/odm/vendor/firmware/ancap64.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/ancap64.b07 \
     vendor/oplus/RMX3360/proprietary/odm/vendor/firmware/ancap64.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/ancap64.mdt \
     vendor/oplus/RMX3360/proprietary/vendor/etc/camera/M_Attribute_AG_BMW_1.1.0.model.hardcode:$(TARGET_COPY_OUT_VENDOR)/etc/camera/M_Attribute_AG_BMW_1.1.0.model.hardcode \
+    vendor/oplus/RMX3360/proprietary/vendor/etc/media_codecs_yupik_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_yupik_v1.xml \
+    vendor/oplus/RMX3360/proprietary/vendor/etc/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml \
+    vendor/oplus/RMX3360/proprietary/vendor/etc/media_profiles_yupik_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_yupik_v1.xml \
+    vendor/oplus/RMX3360/proprietary/vendor/etc/media_yupik_v1/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_yupik_v1/video_system_specs.json \
     vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/faroe_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_ak991x_0.json \
     vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/faroe_bu52053nvx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_bu52053nvx_0.json \
     vendor/oplus/RMX3360/proprietary/vendor/etc/sensors/config/faroe_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_default_sensors.json \
@@ -396,26 +390,18 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/RMX3360/proprietary/vendor/lib/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv2_adreno.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
-    vendor/oplus/RMX3360/proprietary/vendor/lib/hw/audio.primary.lahaina.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.lahaina.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib/hw/vulkan.adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.adreno.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libC2D2.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCB.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib/libVkLayer_q3dtools.so:$(TARGET_COPY_OUT_VENDOR)/lib/libVkLayer_q3dtools.so \
-    vendor/oplus/RMX3360/proprietary/vendor/lib/liba2dpoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib/liba2dpoffload.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib/libadreno_app_profiles.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_app_profiles.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_utils.so \
-    vendor/oplus/RMX3360/proprietary/vendor/lib/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_log_utils.so \
-    vendor/oplus/RMX3360/proprietary/vendor/lib/libaudioconfigstore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioconfigstore.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30_bltlib.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpudataproducer.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
-    vendor/oplus/RMX3360/proprietary/vendor/lib/libgui1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgui1_vendor.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-glnext.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qcom.so \
-    vendor/oplus/RMX3360/proprietary/vendor/lib/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigef.so \
-    vendor/oplus/RMX3360/proprietary/vendor/lib/libssrec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssrec.so \
-    vendor/oplus/RMX3360/proprietary/vendor/lib/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib/rfsa/adsp/bm2n06.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/bm2n06.bin \
     vendor/oplus/RMX3360/proprietary/vendor/lib/rfsa/adsp/bm2n08.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/bm2n08.bin \
     vendor/oplus/RMX3360/proprietary/vendor/lib/rfsa/adsp/bm2n13.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/bm2n13.bin \
@@ -554,7 +540,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv2_adreno.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_adreno.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
-    vendor/oplus/RMX3360/proprietary/vendor/lib64/hw/audio.primary.lahaina.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.lahaina.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.qcom.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qti.chi.override.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/hw/vulkan.adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.adreno.so \
@@ -566,7 +551,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libQ6MSFR_manager_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQ6MSFR_manager_stub.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libSonyIMX471RmscLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX471RmscLibrary.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libVkLayer_q3dtools.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVkLayer_q3dtools.so \
-    vendor/oplus/RMX3360/proprietary/vendor/lib64/liba2dpoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liba2dpoffload.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libadreno_app_profiles.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadreno_app_profiles.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadreno_utils.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libaidenoiser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaidenoiser.so \
@@ -576,8 +560,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libarcsoft_eis_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_eis_wrapper.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libarcsoft_triple_sat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_triple_sat.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libarcsoft_triple_zoomtranslator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_triple_zoomtranslator.so \
-    vendor/oplus/RMX3360/proprietary/vendor/lib64/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_log_utils.so \
-    vendor/oplus/RMX3360/proprietary/vendor/lib64/libaudioconfigstore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioconfigstore.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libbitmlengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbitmlengine.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libbitmlenginev2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbitmlenginev2.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30_bltlib.so \
@@ -624,15 +606,12 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libos.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libqll10.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqll10.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libqllengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqllengine.so \
-    vendor/oplus/RMX3360/proprietary/vendor/lib64/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtigef.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libsns_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_api.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libsns_registry_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_registry_skel.so \
-    vendor/oplus/RMX3360/proprietary/vendor/lib64/libssrec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssrec.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswregistrationalgo.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libsynx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynx.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libtfestriping.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtfestriping.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libthreadutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthreadutils.so \
-    vendor/oplus/RMX3360/proprietary/vendor/lib64/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinycompress.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libtriplecam_optical_zoom_control.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtriplecam_optical_zoom_control.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/libtriplecam_video_optical_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtriplecam_video_optical_zoom.so \
     vendor/oplus/RMX3360/proprietary/vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/rfsa/adsp/libsns_device_mode_skel.so \
